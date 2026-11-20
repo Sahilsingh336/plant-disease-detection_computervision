@@ -1,4 +1,4 @@
-> **Manuscript status (2026-11-20):** This README and the older `CNN Features with Bidirectional Mamba.md` / `IEEE_Word_Paper.docx` contain preliminary narrative and claims that are not supported by the audited experiment bundle. They are not submission sources. Use `CNN Features with Bidirectional Mamba.tex`, `references.bib`, `tables/experimental_tables.tex`, and `figures/diagram_sources.tex`; resolve the author-verification notes before submission.
+> **Manuscript status (2026-11-20):** The updated research paper is [CNN Features with Bidirectional Mamba.pdf](./CNN Features with Bidirectional Mamba.pdf). The README and the older markdown/Word drafts contain preliminary narrative and claims that are not fully submission-ready. Use `CNN Features with Bidirectional Mamba.tex`, `references.bib`, `tables/experimental_tables.tex`, and `figures/diagram_sources.tex` for the editable manuscript; resolve the author-verification notes before submission.
 
 # PSMamba & Hybrid Vision Mamba for Plant Disease Recognition
 
@@ -327,9 +327,12 @@ plant-disease-detective/
 
 ### Dataset Setup Options:
 - **Option A (Synthetic Mode - Zero Downloads):** Run with `--synthetic`. Generates in-memory leaf tensors to test the full pipeline in seconds without downloading datasets.
-- **Option B (Kaggle Direct):** Datasets are pre-linked on Kaggle under:
+- **Option B (Kaggle Direct):** Use the exact Kaggle dataset copies examined in this project:
+  - [PlantDoc Dataset](https://www.kaggle.com/datasets/nirmalsankalana/plantdoc-dataset)
+  - [Citrus Leaf Disease Image Dataset](https://www.kaggle.com/datasets/myprojectdictionary/citrus-leaf-disease-image)
+- Kaggle mount paths:
   - PlantDoc: `/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset`
-  - Citrus: `/kaggle/input/datasets/myprojectdictionary/citrus-leaf-disease-image/Citrus Leaf Disease Image`
+  - Citrus: `/kaggle/input/datasets/myprojectdictionary/citrus-leaf-disease-image`
 - **Option C (Local Folder):** Download from Kaggle or original sources, extract to a local folder (e.g., `./data/plantdoc`), and pass `--data-dir ./data/plantdoc`.
 
 ---

@@ -2,6 +2,8 @@
 
 `CNN Features with Bidirectional Mamba.tex` is the manuscript entry point. It uses the IEEEtran conference class, BibTeX with `references.bib`, TikZ vector diagrams from `figures/diagram_sources.tex`, and the result-table source in `tables/experimental_tables.tex`.
 
+The updated rendered artifact is [CNN Features with Bidirectional Mamba.pdf](./CNN Features with Bidirectional Mamba.pdf).
+
 ## Compile locally
 
 From this directory, run:

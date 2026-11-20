@@ -63,10 +63,16 @@ PlantDoc is a field-image dataset introduced for visual plant-disease detection 
 
 The Citrus image collection is based on a Kaggle copy associated with the citrus-disease images described by Rauf \textit{et al.} \cite{rauf2019citrus}. It contains 607 images in five classes, rather than the 609 reported for the source dataset: Black spot (169), Canker (163), Greening (204), Healthy (58), and Melanose (13). Since this supplied copy has no predefined split, we use stratified five-fold cross-validation with seed 42. Each fold reserves 12.5\% of its training portion for validation and uses the remaining fold as test data (approximately 121 test images per fold). Table~\ref{tab:datasets} summarizes the experimental partitions. Figure~\ref{fig:workflow} shows the common evaluation workflow.
 
+The exact Kaggle dataset copies used for this study are:
+\begin{itemize}
+    \item PlantDoc: \url{https://www.kaggle.com/datasets/nirmalsankalana/plantdoc-dataset}
+    \item Citrus: \url{https://www.kaggle.com/datasets/myprojectdictionary/citrus-leaf-disease-image}
+\end{itemize}
+
 \input{tables/experimental_tables.tex}
 \DatasetTable
 
-The source report identifies Kaggle copies but does not record stable dataset URLs, exact version identifiers, access dates, or license details. The canonical PlantDoc and Citrus papers cited above describe the source datasets, not necessarily these exact mirrors. These missing mirror-level details require author verification before submission.
+The Kaggle URLs above identify the exact mirrors used for this study, but exact dataset version identifiers, access dates, and license details should still be recorded in the final reproducibility package. The canonical PlantDoc and Citrus papers cited above describe the source datasets, not necessarily every detail of these exact mirrors.
 
 \subsection{Splits, Preprocessing, and Leakage Controls}
 The fixed PlantDoc split and stratified Citrus folds are established before model training. An exact byte-level duplicate check is applied across split boundaries; the report records five duplicate training files and one validation file removed for PlantDoc. RGB images are used throughout. Training augmentations depend on the basic or strong recipe, while evaluation images are resized to the selected model resolution and normalized using ImageNet channel statistics. Checkpoints are selected using validation data, and the held-out test partition is evaluated only with the selected checkpoint. PlantDoc uses one fixed test split; Citrus metrics are summarized across five folds. Reported mean~$\pm$~standard deviation therefore refers to independent seeds for PlantDoc multi-run rows and to folds for Citrus rows, except where the table explicitly identifies variation across seed-level five-fold means.
