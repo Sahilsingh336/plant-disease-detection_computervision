@@ -1,16 +1,16 @@
 # IEEE LaTeX paper
 
-`IEEE_Reasearch_paper.tex` is the manuscript entry point. It uses the IEEEtran conference class, BibTeX with `references.bib`, TikZ vector diagrams from `figures/diagram_sources.tex`, and the result-table source in `tables/experimental_tables.tex`.
+`CNN Features with Bidirectional Mamba.tex` is the manuscript entry point. It uses the IEEEtran conference class, BibTeX with `references.bib`, TikZ vector diagrams from `figures/diagram_sources.tex`, and the result-table source in `tables/experimental_tables.tex`.
 
 ## Compile locally
 
 From this directory, run:
 
 ```sh
-latexmk -pdf IEEE_Reasearch_paper.tex
+latexmk -pdf "CNN Features with Bidirectional Mamba.tex"
 ```
 
-The project uses relative paths and can be uploaded to Overleaf as a folder/ZIP. Select `IEEE_Reasearch_paper.tex` as the main document and allow the standard LaTeX/BibTeX build sequence.
+The project uses relative paths and can be uploaded to Overleaf as a folder/ZIP. Select `CNN Features with Bidirectional Mamba.tex` as the main document and allow the standard LaTeX/BibTeX build sequence.
 
 ## Before submission
 
