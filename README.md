@@ -1,4 +1,4 @@
-> **Manuscript status (2026-11-20):** This README and the older `IEEE_Research_Paper.md` / `IEEE_Word_Paper.docx` contain preliminary narrative and claims that are not supported by the audited experiment bundle. They are not submission sources. Use `IEEE_Research_Paper.tex`, `references.bib`, `tables/experimental_tables.tex`, and `figures/diagram_sources.tex`; resolve the author-verification notes before submission.
+> **Manuscript status (2026-11-20):** This README and the older `IEEE_Reasearch_paper.md` / `IEEE_Word_Paper.docx` contain preliminary narrative and claims that are not supported by the audited experiment bundle. They are not submission sources. Use `IEEE_Reasearch_paper.tex`, `references.bib`, `tables/experimental_tables.tex`, and `figures/diagram_sources.tex`; resolve the author-verification notes before submission.
 
 # PSMamba & Hybrid Vision Mamba for Plant Disease Recognition
 
