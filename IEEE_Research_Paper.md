@@ -1,4 +1,4 @@
-# Manuscript source notice
+# CNN Features with Bidirectional Mamba
 
 The authoritative research-paper manuscript is `IEEE_Research_Paper.tex`. Its bibliography, editable vector diagrams, and result tables are maintained in `references.bib`, `figures/diagram_sources.tex`, and `tables/experimental_tables.tex`.
 
