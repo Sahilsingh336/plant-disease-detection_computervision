@@ -1,0 +1,122 @@
+\tikzset{
+  paperblock/.style={draw, rounded corners, align=center, fill=blue!5, minimum height=8mm, inner sep=4pt, font=\small},
+  papersmall/.style={draw, rounded corners, align=center, fill=green!6, minimum height=7mm, inner sep=3pt, font=\scriptsize},
+  papertensor/.style={draw, align=center, fill=orange!10, minimum height=8mm, inner sep=4pt, font=\small},
+  paperarrow/.style={-{Latex[length=2mm]}, thick},
+  paperfeedback/.style={-{Latex[length=2mm]}, thick, dashed}
+}
+
+\newcommand{\HybridArchitectureDiagram}{%
+\resizebox{\textwidth}{!}{%
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \node[papertensor,text width=2.45cm] (input) at (0,1.25) {RGB image\\$224\times224$};
+  \node[paperblock,text width=2.6cm] (cnn) at (3.5,1.25) {ImageNet-pretrained\\ResNet-50 through layer 3};
+  \node[papertensor,text width=2.6cm] (features) at (7.0,1.25) {$1024\times14\times14$\\stride-16 features};
+  \node[paperblock,text width=2.6cm] (projection) at (10.5,1.25) {$1\times1$ projection\\$1024\rightarrow192$};
+  \node[papertensor,text width=2.6cm] (tokens) at (14.0,1.25) {Add 2-D positions\\flatten to $196\times192$};
+  \node[paperblock,text width=2.6cm] (mamba) at (14.0,-1.25) {Four Bi-Mamba blocks\\width 192};
+  \node[paperblock,text width=2.6cm] (pool) at (9.3,-1.25) {LayerNorm +\\mean pooling};
+  \node[paperblock,text width=2.6cm] (head) at (4.6,-1.25) {Linear classifier};
+  \node[papertensor,text width=2.45cm] (output) at (0,-1.25) {Disease logits};
+  \draw[paperarrow] (input) -- (cnn);
+  \draw[paperarrow] (cnn) -- (features);
+  \draw[paperarrow] (features) -- (projection);
+  \draw[paperarrow] (projection) -- (tokens);
+  \draw[paperarrow] (tokens.south) -- (mamba.north);
+  \draw[paperarrow] (mamba.west) -- (pool.east);
+  \draw[paperarrow] (pool.west) -- (head.east);
+  \draw[paperarrow] (head.west) -- (output.east);
+\end{tikzpicture}%
+}%
+}
+
+\newcommand{\CNNTokenDiagram}{%
+\resizebox{\textwidth}{!}{%
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \node[papertensor,text width=1.35cm] (input) at (0,0) {Input\\224 px};
+  \node[papersmall,text width=1.55cm] (stem) at (2.25,0) {Stem +\\layer 1\\stride 4};
+  \node[papersmall,text width=1.55cm] (layer2) at (4.55,0) {ResNet\\layer 2\\stride 8};
+  \node[papersmall,text width=1.55cm] (layer3) at (6.85,0) {ResNet\\layer 3\\stride 16};
+  \node[papertensor,text width=1.55cm] (map) at (9.15,0) {Feature map\\$1024\times14\times14$};
+  \node[papersmall,text width=1.5cm] (proj) at (11.4,0) {$1\times1$ conv\\to width 192};
+  \node[papersmall,text width=1.6cm] (position) at (13.7,0) {Add learnable\\2-D positions};
+  \node[papertensor,text width=1.65cm] (flatten) at (16.1,0) {Raster tokens\\$196\times192$};
+  \foreach \a/\b in {input/stem,stem/layer2,layer2/layer3,layer3/map,map/proj,proj/position,position/flatten}
+    \draw[paperarrow] (\a) -- (\b);
+\end{tikzpicture}%
+}%
+}
+
+\newcommand{\BiMambaDiagram}{%
+\resizebox{\textwidth}{!}{%
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \node[papertensor,text width=1.8cm] (input) at (0,0) {Input tokens\\$\mathbf{U}_s^{(\ell)}$};
+  \node[paperblock,text width=1.65cm] (norm) at (2.0,0) {LayerNorm};
+  \node[paperblock,text width=2.15cm] (forward) at (5.2,1.2) {Forward selective\\Mamba scan};
+  \node[paperblock,text width=2.15cm] (reverse) at (5.2,-1.2) {Reverse order\\Mamba scan};
+  \node[papersmall,text width=1.5cm] (fweight) at (8.0,1.2) {Scale by\\$\alpha_f$};
+  \node[papersmall,text width=1.5cm] (bweight) at (8.0,-1.2) {Scale by\\$\alpha_b$};
+  \node[paperblock,text width=1.45cm] (sum) at (10.2,0) {Sum two\\directions};
+  \node[paperblock,text width=1.5cm] (residual) at (12.5,0) {Residual\\addition};
+  \node[papertensor,text width=1.8cm] (output) at (14.7,0) {Output tokens\\$\mathbf{U}_s^{(\ell+1)}$};
+  \draw[paperarrow] (input) -- (norm);
+  \draw[paperarrow] (norm.east) -- ++(0.6,0) |- (forward.west);
+  \draw[paperarrow] (norm.east) -- ++(0.6,0) |- (reverse.west);
+  \draw[paperarrow] (forward) -- (fweight);
+  \draw[paperarrow] (reverse) -- (bweight);
+  \draw[paperarrow] (fweight.east) -- ++(0.45,0) |- (sum.west);
+  \draw[paperarrow] (bweight.east) -- ++(0.45,0) |- (sum.west);
+  \draw[paperarrow] (sum) -- (residual);
+  \draw[paperarrow] (residual) -- (output);
+  \coordinate (skipStart) at ($(input.south)+(0,-1.35)$);
+  \draw[paperfeedback] (input.south) -- (skipStart) -| (residual.south);
+  \node[below,font=\scriptsize] at ($(skipStart)+(6.0,0)$) {identity skip};
+\end{tikzpicture}%
+}%
+}
+
+\newcommand{\SelfSupervisedDiagram}{%
+\resizebox{\textwidth}{!}{%
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \node[papertensor,text width=1.55cm] (image) at (0,0) {Same source\\image};
+  \node[paperblock,text width=2.05cm] (global) at (3.0,1.4) {Global view\\$224\times224$};
+  \node[paperblock,text width=2.05cm] (crops) at (3.0,-1.4) {Student crops\\2 mid + 4 local};
+  \node[paperblock,text width=2.4cm] (teacher) at (6.6,1.4) {EMA teacher\\Bi-Mamba encoder};
+  \node[paperblock,text width=2.4cm] (student) at (6.6,-1.4) {Shared student\\Bi-Mamba encoder};
+  \node[papersmall,text width=2.0cm] (teacherhead) at (10.1,1.4) {Centered prototype\\distribution $\mathbf{q}_i$};
+  \node[paperblock,text width=2.15cm] (align) at (10.1,-1.4) {MPA: map crop\\tokens to global grid};
+  \node[papersmall,text width=2.0cm] (studenthead) at (13.3,-1.4) {Student distribution\\$\mathbf{p}_{v,i}$ + coverage mask};
+  \node[paperblock,text width=2.0cm] (loss) at (16.6,0) {Masked KL\\distillation loss};
+  \draw[paperarrow] (image) -- (global);
+  \draw[paperarrow] (image) -- (crops);
+  \draw[paperarrow] (global) -- (teacher);
+  \draw[paperarrow] (crops) -- (student);
+  \draw[paperarrow] (teacher) -- (teacherhead);
+  \draw[paperarrow] (student) -- (align);
+  \draw[paperarrow] (align) -- (studenthead);
+  \draw[paperarrow] (teacherhead.east) -- ++(0.5,0) |- (loss.north);
+  \draw[paperarrow] (studenthead.east) -- (loss);
+  \draw[paperfeedback] (student.north) -- node[midway,right=2pt,fill=white,inner sep=1pt,font=\scriptsize]{EMA update} (teacher.south);
+\end{tikzpicture}%
+}%
+}
+
+\newcommand{\ExperimentalWorkflowDiagram}{%
+\resizebox{\textwidth}{!}{%
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \node[papertensor,text width=2.8cm] (data) at (0,1.25) {PlantDoc / Citrus\\image collections};
+  \node[paperblock,text width=2.8cm] (split) at (4.2,1.25) {Exact duplicate check\\fixed split manifests};
+  \node[paperblock,text width=2.8cm] (models) at (8.4,1.25) {Scratch Bi-Mamba, SSL,\\pretrained CNN, hybrid};
+  \node[paperblock,text width=2.8cm] (train) at (12.6,1.25) {Train with basic or\\strong recipe};
+  \node[paperblock,text width=2.8cm] (select) at (12.6,-1.25) {Select checkpoint\\by validation};
+  \node[papertensor,text width=2.8cm] (test) at (8.4,-1.25) {Held-out test\\or Citrus fold};
+  \node[papertensor,text width=2.8cm] (metrics) at (4.2,-1.25) {Accuracy, macro-F1,\\minority-F1, efficiency};
+  \draw[paperarrow] (data) -- (split);
+  \draw[paperarrow] (split) -- (models);
+  \draw[paperarrow] (models) -- (train);
+  \draw[paperarrow] (train.south) -- (select.north);
+  \draw[paperarrow] (select.west) -- (test.east);
+  \draw[paperarrow] (test.west) -- (metrics.east);
+\end{tikzpicture}%
+}%
+}

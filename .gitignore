@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyTorch Checkpoints & Large Model Weights
+checkpoints/
+*.pt
+*.pth
+*.bin
+*.ckpt
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Raw Dataset Images (Keep splits/ CSVs committed, ignore large images)
+/data/
+/datasets/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs & Temporary outputs
+*.log
+*.tmp

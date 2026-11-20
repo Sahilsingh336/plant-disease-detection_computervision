@@ -1,0 +1,15 @@
+# Core Deep Learning & Computer Vision
+torch>=2.0.0
+torchvision>=0.15.0
+mambapy>=1.2.0
+timm>=0.9.0
+
+# Scientific Computing & Data Processing
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.10.0
+scikit-learn>=1.2.0
+pillow>=9.5.0
+
+# Visualization & Logging
+matplotlib>=3.7.0

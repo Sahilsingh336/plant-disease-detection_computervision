@@ -1,0 +1,2 @@
+tag,label,dataset,fold,seed,epochs,best_epoch,val_acc,test_acc,test_macro_f1,test_minority_f1,minutes
+paper150_plantdoc_f0_s0,paper150,plantdoc,0,0,150,116,46.52908067542214,33.33333333333333,30.084282707147057,20.69094304388422,243.9851152499517

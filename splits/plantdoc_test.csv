@@ -1,0 +1,253 @@
+path,label
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Apple_Scab_Leaf/test_Apple Scab Leaf_1.jpg,Apple_Scab_Leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Apple_Scab_Leaf/test_Apple Scab Leaf_10.jpg,Apple_Scab_Leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Apple_Scab_Leaf/test_Apple Scab Leaf_2.jpg,Apple_Scab_Leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Apple_Scab_Leaf/test_Apple Scab Leaf_3.jpg,Apple_Scab_Leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Apple_Scab_Leaf/test_Apple Scab Leaf_4.jpg,Apple_Scab_Leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Apple_Scab_Leaf/test_Apple Scab Leaf_5.jpg,Apple_Scab_Leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Apple_Scab_Leaf/test_Apple Scab Leaf_6.jpg,Apple_Scab_Leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Apple_Scab_Leaf/test_Apple Scab Leaf_7.jpg,Apple_Scab_Leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Apple_Scab_Leaf/test_Apple Scab Leaf_8.jpg,Apple_Scab_Leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Apple_Scab_Leaf/test_Apple Scab Leaf_9.jpg,Apple_Scab_Leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Apple_leaf/test_Apple leaf_1.jpg,Apple_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Apple_leaf/test_Apple leaf_2.jpg,Apple_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Apple_leaf/test_Apple leaf_3.jpg,Apple_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Apple_leaf/test_Apple leaf_4.jpg,Apple_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Apple_leaf/test_Apple leaf_5.jpg,Apple_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Apple_leaf/test_Apple leaf_6.jpg,Apple_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Apple_leaf/test_Apple leaf_7.jpg,Apple_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Apple_leaf/test_Apple leaf_8.jpg,Apple_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Apple_leaf/test_Apple leaf_9.jpg,Apple_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Apple_rust_leaf/test_Apple rust leaf_1.jpg,Apple_rust_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Apple_rust_leaf/test_Apple rust leaf_10.jpg,Apple_rust_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Apple_rust_leaf/test_Apple rust leaf_2.jpg,Apple_rust_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Apple_rust_leaf/test_Apple rust leaf_3.jpg,Apple_rust_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Apple_rust_leaf/test_Apple rust leaf_4.jpg,Apple_rust_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Apple_rust_leaf/test_Apple rust leaf_5.jpg,Apple_rust_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Apple_rust_leaf/test_Apple rust leaf_6.jpg,Apple_rust_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Apple_rust_leaf/test_Apple rust leaf_7.jpg,Apple_rust_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Apple_rust_leaf/test_Apple rust leaf_8.jpg,Apple_rust_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Apple_rust_leaf/test_Apple rust leaf_9.jpg,Apple_rust_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Bell_pepper_leaf/test_Bell_pepper leaf_1.jpg,Bell_pepper_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Bell_pepper_leaf/test_Bell_pepper leaf_2.jpg,Bell_pepper_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Bell_pepper_leaf/test_Bell_pepper leaf_3.jpg,Bell_pepper_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Bell_pepper_leaf/test_Bell_pepper leaf_4.jpg,Bell_pepper_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Bell_pepper_leaf/test_Bell_pepper leaf_5.jpg,Bell_pepper_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Bell_pepper_leaf/test_Bell_pepper leaf_6.jpg,Bell_pepper_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Bell_pepper_leaf/test_Bell_pepper leaf_7.jpg,Bell_pepper_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Bell_pepper_leaf/test_Bell_pepper leaf_8.jpg,Bell_pepper_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Bell_pepper_leaf_spot/test_Bell_pepper leaf spot_1.jpg,Bell_pepper_leaf_spot
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Bell_pepper_leaf_spot/test_Bell_pepper leaf spot_2.jpg,Bell_pepper_leaf_spot
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Bell_pepper_leaf_spot/test_Bell_pepper leaf spot_3.jpg,Bell_pepper_leaf_spot
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Bell_pepper_leaf_spot/test_Bell_pepper leaf spot_4.jpg,Bell_pepper_leaf_spot
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Bell_pepper_leaf_spot/test_Bell_pepper leaf spot_5.jpg,Bell_pepper_leaf_spot
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Bell_pepper_leaf_spot/test_Bell_pepper leaf spot_6.jpg,Bell_pepper_leaf_spot
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Bell_pepper_leaf_spot/test_Bell_pepper leaf spot_7.jpg,Bell_pepper_leaf_spot
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Bell_pepper_leaf_spot/test_Bell_pepper leaf spot_8.jpg,Bell_pepper_leaf_spot
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Bell_pepper_leaf_spot/test_Bell_pepper leaf spot_9.jpg,Bell_pepper_leaf_spot
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Blueberry_leaf/test_Blueberry leaf_1.jpg,Blueberry_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Blueberry_leaf/test_Blueberry leaf_10.jpg,Blueberry_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Blueberry_leaf/test_Blueberry leaf_11.jpg,Blueberry_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Blueberry_leaf/test_Blueberry leaf_2.jpg,Blueberry_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Blueberry_leaf/test_Blueberry leaf_3.jpg,Blueberry_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Blueberry_leaf/test_Blueberry leaf_4.jpg,Blueberry_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Blueberry_leaf/test_Blueberry leaf_5.jpg,Blueberry_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Blueberry_leaf/test_Blueberry leaf_6.jpg,Blueberry_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Blueberry_leaf/test_Blueberry leaf_7.jpg,Blueberry_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Blueberry_leaf/test_Blueberry leaf_8.jpg,Blueberry_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Blueberry_leaf/test_Blueberry leaf_9.jpg,Blueberry_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Cherry_leaf/test_Cherry leaf_1.jpg,Cherry_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Cherry_leaf/test_Cherry leaf_10.jpg,Cherry_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Cherry_leaf/test_Cherry leaf_2.jpg,Cherry_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Cherry_leaf/test_Cherry leaf_3.jpg,Cherry_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Cherry_leaf/test_Cherry leaf_4.jpg,Cherry_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Cherry_leaf/test_Cherry leaf_5.jpg,Cherry_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Cherry_leaf/test_Cherry leaf_6.jpg,Cherry_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Cherry_leaf/test_Cherry leaf_7.jpg,Cherry_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Cherry_leaf/test_Cherry leaf_8.jpg,Cherry_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Cherry_leaf/test_Cherry leaf_9.jpg,Cherry_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Corn_Gray_leaf_spot/test_Corn Gray leaf spot_1.jpg,Corn_Gray_leaf_spot
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Corn_Gray_leaf_spot/test_Corn Gray leaf spot_2.jpg,Corn_Gray_leaf_spot
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Corn_Gray_leaf_spot/test_Corn Gray leaf spot_3.jpg,Corn_Gray_leaf_spot
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Corn_Gray_leaf_spot/test_Corn Gray leaf spot_4.jpg,Corn_Gray_leaf_spot
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Corn_leaf_blight/test_Corn leaf blight_1.jpg,Corn_leaf_blight
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Corn_leaf_blight/test_Corn leaf blight_10.jpg,Corn_leaf_blight
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Corn_leaf_blight/test_Corn leaf blight_11.jpg,Corn_leaf_blight
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Corn_leaf_blight/test_Corn leaf blight_12.jpg,Corn_leaf_blight
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Corn_leaf_blight/test_Corn leaf blight_2.jpg,Corn_leaf_blight
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Corn_leaf_blight/test_Corn leaf blight_3.jpg,Corn_leaf_blight
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Corn_leaf_blight/test_Corn leaf blight_4.jpg,Corn_leaf_blight
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Corn_leaf_blight/test_Corn leaf blight_5.jpg,Corn_leaf_blight
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Corn_leaf_blight/test_Corn leaf blight_6.jpg,Corn_leaf_blight
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Corn_leaf_blight/test_Corn leaf blight_7.jpg,Corn_leaf_blight
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Corn_leaf_blight/test_Corn leaf blight_8.jpg,Corn_leaf_blight
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Corn_leaf_blight/test_Corn leaf blight_9.jpg,Corn_leaf_blight
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Corn_rust_leaf/test_Corn rust leaf_1.jpg,Corn_rust_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Corn_rust_leaf/test_Corn rust leaf_10.jpg,Corn_rust_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Corn_rust_leaf/test_Corn rust leaf_2.jpg,Corn_rust_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Corn_rust_leaf/test_Corn rust leaf_3.jpg,Corn_rust_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Corn_rust_leaf/test_Corn rust leaf_4.jpg,Corn_rust_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Corn_rust_leaf/test_Corn rust leaf_5.jpg,Corn_rust_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Corn_rust_leaf/test_Corn rust leaf_6.jpg,Corn_rust_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Corn_rust_leaf/test_Corn rust leaf_7.jpg,Corn_rust_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Corn_rust_leaf/test_Corn rust leaf_8.jpg,Corn_rust_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Corn_rust_leaf/test_Corn rust leaf_9.jpg,Corn_rust_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Peach_leaf/test_Peach leaf_1.jpg,Peach_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Peach_leaf/test_Peach leaf_2.jpg,Peach_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Peach_leaf/test_Peach leaf_3.jpg,Peach_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Peach_leaf/test_Peach leaf_4.jpg,Peach_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Peach_leaf/test_Peach leaf_5.jpg,Peach_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Peach_leaf/test_Peach leaf_6.jpg,Peach_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Peach_leaf/test_Peach leaf_7.jpg,Peach_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Peach_leaf/test_Peach leaf_8.jpg,Peach_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Peach_leaf/test_Peach leaf_9.jpg,Peach_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Potato_leaf_early_blight/test_Potato leaf early blight_1.jpg,Potato_leaf_early_blight
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Potato_leaf_early_blight/test_Potato leaf early blight_2.jpg,Potato_leaf_early_blight
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Potato_leaf_early_blight/test_Potato leaf early blight_3.jpg,Potato_leaf_early_blight
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Potato_leaf_early_blight/test_Potato leaf early blight_4_1.jpg,Potato_leaf_early_blight
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Potato_leaf_early_blight/test_Potato leaf early blight_4_2.jpg,Potato_leaf_early_blight
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Potato_leaf_early_blight/test_Potato leaf early blight_4_3.jpg,Potato_leaf_early_blight
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Potato_leaf_early_blight/test_Potato leaf early blight_4_4.jpg,Potato_leaf_early_blight
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Potato_leaf_early_blight/test_Potato leaf early blight_5.jpg,Potato_leaf_early_blight
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Potato_leaf_early_blight/test_Potato leaf early blight_6_1.jpg,Potato_leaf_early_blight
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Potato_leaf_early_blight/test_Potato leaf early blight_6_2.jpg,Potato_leaf_early_blight
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Potato_leaf_early_blight/test_Potato leaf early blight_6_3.jpg,Potato_leaf_early_blight
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Potato_leaf_early_blight/test_Potato leaf early blight_6_4.jpg,Potato_leaf_early_blight
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Potato_leaf_early_blight/test_Potato leaf early blight_7.jpg,Potato_leaf_early_blight
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Potato_leaf_early_blight/test_Potato leaf early blight_8.jpg,Potato_leaf_early_blight
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Potato_leaf_late_blight/test_Potato leaf late blight_1.jpg,Potato_leaf_late_blight
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Potato_leaf_late_blight/test_Potato leaf late blight_2.jpg,Potato_leaf_late_blight
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Potato_leaf_late_blight/test_Potato leaf late blight_3.jpg,Potato_leaf_late_blight
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Potato_leaf_late_blight/test_Potato leaf late blight_4.jpg,Potato_leaf_late_blight
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Potato_leaf_late_blight/test_Potato leaf late blight_5.jpg,Potato_leaf_late_blight
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Potato_leaf_late_blight/test_Potato leaf late blight_6.jpg,Potato_leaf_late_blight
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Potato_leaf_late_blight/test_Potato leaf late blight_7.jpg,Potato_leaf_late_blight
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Potato_leaf_late_blight/test_Potato leaf late blight_8.jpg,Potato_leaf_late_blight
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Raspberry_leaf/test_Raspberry leaf_1.jpg,Raspberry_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Raspberry_leaf/test_Raspberry leaf_2.jpg,Raspberry_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Raspberry_leaf/test_Raspberry leaf_3.jpg,Raspberry_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Raspberry_leaf/test_Raspberry leaf_4.jpg,Raspberry_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Raspberry_leaf/test_Raspberry leaf_5.jpg,Raspberry_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Raspberry_leaf/test_Raspberry leaf_6.jpg,Raspberry_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Raspberry_leaf/test_Raspberry leaf_7.jpg,Raspberry_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Soyabean_leaf/test_Soyabean leaf_1.jpg,Soyabean_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Soyabean_leaf/test_Soyabean leaf_2.jpg,Soyabean_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Soyabean_leaf/test_Soyabean leaf_3.jpg,Soyabean_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Soyabean_leaf/test_Soyabean leaf_4.jpg,Soyabean_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Soyabean_leaf/test_Soyabean leaf_5.jpg,Soyabean_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Soyabean_leaf/test_Soyabean leaf_6.jpg,Soyabean_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Soyabean_leaf/test_Soyabean leaf_7.jpg,Soyabean_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Soyabean_leaf/test_Soyabean leaf_8.jpg,Soyabean_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Squash_Powdery_mildew_leaf/test_Squash Powdery mildew leaf_1.jpg,Squash_Powdery_mildew_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Squash_Powdery_mildew_leaf/test_Squash Powdery mildew leaf_2.jpg,Squash_Powdery_mildew_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Squash_Powdery_mildew_leaf/test_Squash Powdery mildew leaf_3.jpg,Squash_Powdery_mildew_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Squash_Powdery_mildew_leaf/test_Squash Powdery mildew leaf_4.jpg,Squash_Powdery_mildew_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Squash_Powdery_mildew_leaf/test_Squash Powdery mildew leaf_5.jpg,Squash_Powdery_mildew_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Squash_Powdery_mildew_leaf/test_Squash Powdery mildew leaf_6.jpg,Squash_Powdery_mildew_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Strawberry_leaf/test_Strawberry leaf_1.jpg,Strawberry_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Strawberry_leaf/test_Strawberry leaf_2.jpg,Strawberry_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Strawberry_leaf/test_Strawberry leaf_3.jpg,Strawberry_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Strawberry_leaf/test_Strawberry leaf_4.jpg,Strawberry_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Strawberry_leaf/test_Strawberry leaf_5.jpg,Strawberry_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Strawberry_leaf/test_Strawberry leaf_6.jpg,Strawberry_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Strawberry_leaf/test_Strawberry leaf_7.jpg,Strawberry_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Strawberry_leaf/test_Strawberry leaf_8.jpg,Strawberry_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_Early_blight_leaf/test_Tomato Early blight leaf_1.jpg,Tomato_Early_blight_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_Early_blight_leaf/test_Tomato Early blight leaf_2.jpg,Tomato_Early_blight_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_Early_blight_leaf/test_Tomato Early blight leaf_3.jpg,Tomato_Early_blight_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_Early_blight_leaf/test_Tomato Early blight leaf_4.jpg,Tomato_Early_blight_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_Early_blight_leaf/test_Tomato Early blight leaf_5.jpg,Tomato_Early_blight_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_Early_blight_leaf/test_Tomato Early blight leaf_6.jpg,Tomato_Early_blight_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_Early_blight_leaf/test_Tomato Early blight leaf_7.jpg,Tomato_Early_blight_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_Early_blight_leaf/test_Tomato Early blight leaf_8.jpg,Tomato_Early_blight_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_Early_blight_leaf/test_Tomato Early blight leaf_9.jpg,Tomato_Early_blight_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_Septoria_leaf_spot/test_Tomato Septoria leaf spot_10.jpg,Tomato_Septoria_leaf_spot
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_Septoria_leaf_spot/test_Tomato Septoria leaf spot_11.jpg,Tomato_Septoria_leaf_spot
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_Septoria_leaf_spot/test_Tomato Septoria leaf spot_1_1.jpg,Tomato_Septoria_leaf_spot
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_Septoria_leaf_spot/test_Tomato Septoria leaf spot_1_2.jpg,Tomato_Septoria_leaf_spot
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_Septoria_leaf_spot/test_Tomato Septoria leaf spot_2.jpg,Tomato_Septoria_leaf_spot
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_Septoria_leaf_spot/test_Tomato Septoria leaf spot_3.jpg,Tomato_Septoria_leaf_spot
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_Septoria_leaf_spot/test_Tomato Septoria leaf spot_4.jpg,Tomato_Septoria_leaf_spot
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_Septoria_leaf_spot/test_Tomato Septoria leaf spot_5.jpg,Tomato_Septoria_leaf_spot
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_Septoria_leaf_spot/test_Tomato Septoria leaf spot_6.jpg,Tomato_Septoria_leaf_spot
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_Septoria_leaf_spot/test_Tomato Septoria leaf spot_7.jpg,Tomato_Septoria_leaf_spot
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_Septoria_leaf_spot/test_Tomato Septoria leaf spot_8.jpg,Tomato_Septoria_leaf_spot
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_Septoria_leaf_spot/test_Tomato Septoria leaf spot_9.jpg,Tomato_Septoria_leaf_spot
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_leaf/test_Tomato leaf_1.jpg,Tomato_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_leaf/test_Tomato leaf_2.jpg,Tomato_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_leaf/test_Tomato leaf_3.jpg,Tomato_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_leaf/test_Tomato leaf_4.jpg,Tomato_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_leaf/test_Tomato leaf_5.jpg,Tomato_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_leaf/test_Tomato leaf_6.jpg,Tomato_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_leaf/test_Tomato leaf_7.jpg,Tomato_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_leaf/test_Tomato leaf_8.jpg,Tomato_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_leaf_bacterial_spot/test_Tomato leaf bacterial spot_1.jpg,Tomato_leaf_bacterial_spot
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_leaf_bacterial_spot/test_Tomato leaf bacterial spot_2.jpg,Tomato_leaf_bacterial_spot
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_leaf_bacterial_spot/test_Tomato leaf bacterial spot_3.jpg,Tomato_leaf_bacterial_spot
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_leaf_bacterial_spot/test_Tomato leaf bacterial spot_4.jpg,Tomato_leaf_bacterial_spot
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_leaf_bacterial_spot/test_Tomato leaf bacterial spot_5.jpg,Tomato_leaf_bacterial_spot
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_leaf_bacterial_spot/test_Tomato leaf bacterial spot_6.jpg,Tomato_leaf_bacterial_spot
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_leaf_bacterial_spot/test_Tomato leaf bacterial spot_7.jpg,Tomato_leaf_bacterial_spot
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_leaf_bacterial_spot/test_Tomato leaf bacterial spot_8.jpg,Tomato_leaf_bacterial_spot
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_leaf_bacterial_spot/test_Tomato leaf bacterial spot_9.jpg,Tomato_leaf_bacterial_spot
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_leaf_late_blight/test_Tomato leaf late blight_1.jpg,Tomato_leaf_late_blight
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_leaf_late_blight/test_Tomato leaf late blight_10.jpg,Tomato_leaf_late_blight
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_leaf_late_blight/test_Tomato leaf late blight_2.jpg,Tomato_leaf_late_blight
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_leaf_late_blight/test_Tomato leaf late blight_3.jpg,Tomato_leaf_late_blight
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_leaf_late_blight/test_Tomato leaf late blight_4.jpg,Tomato_leaf_late_blight
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_leaf_late_blight/test_Tomato leaf late blight_5.jpg,Tomato_leaf_late_blight
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_leaf_late_blight/test_Tomato leaf late blight_6.jpg,Tomato_leaf_late_blight
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_leaf_late_blight/test_Tomato leaf late blight_7.jpg,Tomato_leaf_late_blight
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_leaf_late_blight/test_Tomato leaf late blight_8.jpg,Tomato_leaf_late_blight
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_leaf_late_blight/test_Tomato leaf late blight_9.jpg,Tomato_leaf_late_blight
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_leaf_mosaic_virus/test_Tomato leaf mosaic virus_1.jpg,Tomato_leaf_mosaic_virus
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_leaf_mosaic_virus/test_Tomato leaf mosaic virus_10.jpg,Tomato_leaf_mosaic_virus
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_leaf_mosaic_virus/test_Tomato leaf mosaic virus_2.jpg,Tomato_leaf_mosaic_virus
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_leaf_mosaic_virus/test_Tomato leaf mosaic virus_3.jpg,Tomato_leaf_mosaic_virus
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_leaf_mosaic_virus/test_Tomato leaf mosaic virus_4.jpg,Tomato_leaf_mosaic_virus
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_leaf_mosaic_virus/test_Tomato leaf mosaic virus_5.jpg,Tomato_leaf_mosaic_virus
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_leaf_mosaic_virus/test_Tomato leaf mosaic virus_6.jpg,Tomato_leaf_mosaic_virus
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_leaf_mosaic_virus/test_Tomato leaf mosaic virus_7.jpg,Tomato_leaf_mosaic_virus
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_leaf_mosaic_virus/test_Tomato leaf mosaic virus_8.jpg,Tomato_leaf_mosaic_virus
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_leaf_mosaic_virus/test_Tomato leaf mosaic virus_9.jpg,Tomato_leaf_mosaic_virus
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_leaf_yellow_virus/test_Tomato leaf yellow virus_1.jpg,Tomato_leaf_yellow_virus
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_leaf_yellow_virus/test_Tomato leaf yellow virus_2_1.jpg,Tomato_leaf_yellow_virus
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_leaf_yellow_virus/test_Tomato leaf yellow virus_2_2.jpg,Tomato_leaf_yellow_virus
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_leaf_yellow_virus/test_Tomato leaf yellow virus_2_3.jpg,Tomato_leaf_yellow_virus
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_leaf_yellow_virus/test_Tomato leaf yellow virus_2_4.jpg,Tomato_leaf_yellow_virus
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_leaf_yellow_virus/test_Tomato leaf yellow virus_2_5.jpg,Tomato_leaf_yellow_virus
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_leaf_yellow_virus/test_Tomato leaf yellow virus_2_6.jpg,Tomato_leaf_yellow_virus
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_leaf_yellow_virus/test_Tomato leaf yellow virus_3_1.jpg,Tomato_leaf_yellow_virus
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_leaf_yellow_virus/test_Tomato leaf yellow virus_3_2.jpg,Tomato_leaf_yellow_virus
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_leaf_yellow_virus/test_Tomato leaf yellow virus_4_1.jpg,Tomato_leaf_yellow_virus
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_leaf_yellow_virus/test_Tomato leaf yellow virus_4_2.jpg,Tomato_leaf_yellow_virus
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_leaf_yellow_virus/test_Tomato leaf yellow virus_5.jpg,Tomato_leaf_yellow_virus
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_leaf_yellow_virus/test_Tomato leaf yellow virus_6_1.jpg,Tomato_leaf_yellow_virus
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_leaf_yellow_virus/test_Tomato leaf yellow virus_6_2.jpg,Tomato_leaf_yellow_virus
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_leaf_yellow_virus/test_Tomato leaf yellow virus_6_3.jpg,Tomato_leaf_yellow_virus
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_mold_leaf/test_Tomato mold leaf_1.jpg,Tomato_mold_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_mold_leaf/test_Tomato mold leaf_2.jpg,Tomato_mold_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_mold_leaf/test_Tomato mold leaf_3.jpg,Tomato_mold_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_mold_leaf/test_Tomato mold leaf_4.jpg,Tomato_mold_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_mold_leaf/test_Tomato mold leaf_5.jpg,Tomato_mold_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/Tomato_mold_leaf/test_Tomato mold leaf_6.jpg,Tomato_mold_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/grape_leaf/test_grape leaf_1.jpg,grape_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/grape_leaf/test_grape leaf_10.jpg,grape_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/grape_leaf/test_grape leaf_11.jpg,grape_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/grape_leaf/test_grape leaf_12.jpg,grape_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/grape_leaf/test_grape leaf_2.jpg,grape_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/grape_leaf/test_grape leaf_3.jpg,grape_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/grape_leaf/test_grape leaf_4.jpg,grape_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/grape_leaf/test_grape leaf_5.jpg,grape_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/grape_leaf/test_grape leaf_6.jpg,grape_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/grape_leaf/test_grape leaf_7.jpg,grape_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/grape_leaf/test_grape leaf_8.jpg,grape_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/grape_leaf/test_grape leaf_9.jpg,grape_leaf
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/grape_leaf_black_rot/test_grape leaf black rot_1.jpg,grape_leaf_black_rot
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/grape_leaf_black_rot/test_grape leaf black rot_2.jpg,grape_leaf_black_rot
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/grape_leaf_black_rot/test_grape leaf black rot_3.jpg,grape_leaf_black_rot
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/grape_leaf_black_rot/test_grape leaf black rot_4.jpg,grape_leaf_black_rot
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/grape_leaf_black_rot/test_grape leaf black rot_5.jpg,grape_leaf_black_rot
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/grape_leaf_black_rot/test_grape leaf black rot_6.jpg,grape_leaf_black_rot
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/grape_leaf_black_rot/test_grape leaf black rot_7.jpg,grape_leaf_black_rot
+/kaggle/input/datasets/nirmalsankalana/plantdoc-dataset/test/grape_leaf_black_rot/test_grape leaf black rot_8.jpg,grape_leaf_black_rot

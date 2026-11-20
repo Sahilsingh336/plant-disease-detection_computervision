@@ -1,0 +1,136 @@
+\newcommand{\DatasetTable}{%
+\begin{table}[t]
+\caption{Dataset Composition and Evaluation Partitions}
+\label{tab:datasets}
+\centering
+\footnotesize
+\begin{tabularx}{\columnwidth}{@{}lXX@{}}
+\toprule
+Dataset & Composition & Partition used in this study \\
+\midrule
+PlantDoc copy & 2,670 train-folder images; 252 test-folder images; 28 train classes & 2,131 train / 533 validation / 252 test; 27 classes present in test \\
+Citrus copy & 607 images: Black spot 169; Canker 163; Greening 204; Healthy 58; Melanose 13 & Stratified five-fold CV; about 121 test images per fold; 12.5\% of each training portion held for validation \\
+\bottomrule
+\end{tabularx}
+\end{table}%
+}
+
+\newcommand{\PlantDocResultsTable}{%
+\begin{table*}[t]
+\caption{PlantDoc Results on the Supplied Fixed Test Split}
+\label{tab:plantdoc-results}
+\centering
+\begin{threeparttable}
+\scriptsize
+\setlength{\tabcolsep}{3.2pt}
+\begin{tabularx}{\textwidth}{@{}l l X c r r r@{}}
+\toprule
+Model & Initialization & Training setup & Runs & Accuracy (\%) & Macro-F1 (\%) & Minority F1 (\%) \\
+\midrule
+Bi-Mamba & Scratch & Basic, 50 epochs & 1 & 28.97 & 22.86 & 3.03 \\
+Bi-Mamba & Scratch & Basic, 150 epochs & 1 & 33.73 & 30.92 & 17.53 \\
+Bi-Mamba + SSL & Scratch + SSL & SSL 50 ep.; fine-tune 50 ep. & 1 & 33.33 & 29.73 & 14.94 \\
+Bi-Mamba + SSL & Scratch + SSL & SSL 50 ep.; fine-tune 150 ep. & 1 & 33.33 & 30.08 & 20.69 \\
+ResNet-50 & ImageNet & Basic, 20 epochs & 3 & $69.71\pm1.79$ & $69.09\pm1.20$ & $59.25\pm3.01$ \\
+CNN--Bi-Mamba & ImageNet CNN & Basic, 30 epochs & 4$^{\dagger}$ & $68.95\pm1.56$ & $68.04\pm1.42$ & $57.57\pm7.02$ \\
+ResNet-50 & ImageNet & Strong, 45 epochs & 3 & $71.43\pm3.39$ & $71.17\pm3.20$ & $63.04\pm5.69$ \\
+ConvNeXt-Tiny & ImageNet & Strong, 45 epochs & 1 & 73.41 & 72.62 & 64.95 \\
+Swin-T & ImageNet & Strong, 45 epochs & 1 & 71.03 & 70.00 & 56.14 \\
+CNN--Bi-Mamba & ImageNet CNN & Strong, 45 epochs & 3 & $74.60\pm0.69$ & $73.56\pm0.83$ & $62.64\pm3.41$ \\
+\midrule
+PSMamba (published) & -- & Reported score; different protocol & -- & 95.64 & -- & -- \\
+\bottomrule
+\end{tabularx}
+\begin{tablenotes}[flushleft]
+\footnotesize
+\item Except for the published PSMamba score, values are test-set percentages. For multi-run rows, mean~$\pm$~sample standard deviation is across independent runs. Single-run entries are shown without a dispersion estimate. The published score is not a result from our split and is included only for context. Minority F1 is averaged over the rarest quartile of training classes present in the test set.
+\item[$\dagger$] The supplied report gives a four-run aggregate, but only three PlantDoc basic-hybrid run records appear in the bundled CSV files. The reported aggregate is retained and requires author verification against the missing run log.
+\end{tablenotes}
+\end{threeparttable}
+\end{table*}%
+}
+
+\newcommand{\CitrusResultsTable}{%
+\begin{table*}[t]
+\caption{Citrus Results: Five-Fold Stratified Evaluation}
+\label{tab:citrus-results}
+\centering
+\begin{threeparttable}
+\scriptsize
+\setlength{\tabcolsep}{3.2pt}
+\begin{tabularx}{\textwidth}{@{}l l X r r r@{}}
+\toprule
+Model & Resolution & Aggregation / recipe & Accuracy (\%) & Macro-F1 (\%) & Minority F1 (\%) \\
+\midrule
+Bi-Mamba, scratch & 224 & 5 folds, 1 seed & $90.61\pm2.24$ & $88.50\pm4.20$ & $85.48\pm10.78$ \\
+ResNet-50, pretrained & 224 & 5 folds, 1 seed & $93.90\pm1.27$ & $95.52\pm0.87$ & $98.61\pm2.05$ \\
+CNN--Bi-Mamba, basic (A) & 224 & 5 folds, 1 seed & $95.38\pm1.26$ & $95.31\pm3.41$ & $95.28\pm6.94$ \\
+CNN--Bi-Mamba, basic (B) & 224 & 5 folds, 1 seed$^{\dagger}$ & $94.89\pm2.06$ & 94.84 & -- \\
+CNN--Bi-Mamba, strong & 224 & 5 folds, 1 seed & $95.22\pm1.08$ & $95.19\pm3.09$ & -- \\
+ConvNeXt-Tiny, strong & 224 & 5 folds, 1 seed & $95.72\pm0.70$ & $96.90\pm0.47$ & -- \\
+ConvNeXt-Tiny, strong & 320 & 3 seeds $\times$ 5 folds$^{\ddagger}$ & $95.06\pm1.03$ & $96.14\pm1.04$ & -- \\
+\midrule
+PSMamba (published) & -- & Reported score; different protocol & 92.26 & -- & -- \\
+\bottomrule
+\end{tabularx}
+\begin{tablenotes}[flushleft]
+\footnotesize
+\item For five-fold single-seed rows, mean~$\pm$~sample standard deviation is across folds. For ConvNeXt-Tiny at 320 pixels, each seed is first averaged across five folds; the table gives the mean~$\pm$~sample standard deviation of the three seed-level means. Macro-F1 and minority F1 dispersions for rows with available fold logs are computed from those logs. Dashes indicate metrics not available in the supplied records.
+\item[$\dagger$] The report lists a second basic-hybrid five-fold run, but its fold-level CSV entries are absent from the project bundle; author verification is required.
+\item[$\ddagger$] The three ConvNeXt-Tiny 320-pixel seed-level accuracy means are 96.21\%, 94.24\%, and 94.73\%. The reported aggregate is calculated from the bundled fold-level CSV files.
+\item The published PSMamba Citrus score is not evaluated on these folds and is shown only as context.
+\end{tablenotes}
+\end{threeparttable}
+\end{table*}%
+}
+
+\newcommand{\EfficiencyTable}{%
+\begin{table*}[t]
+\caption{Tesla T4 Efficiency Profile (FP16; Randomly Initialized Models)}
+\label{tab:efficiency}
+\centering
+\begin{threeparttable}
+\footnotesize
+\setlength{\tabcolsep}{5pt}
+\begin{tabularx}{\textwidth}{@{}X r r r r r r@{}}
+\toprule
+Model & Parameters (M) & GMACs$^{*}$ & Inference (img/s) & Inference memory (GB) & Training (img/s) & Training memory (GB) \\
+\midrule
+Bi-Mamba, scratch & 4.22 & 0.81 & 75.6 & 1.07 & 25.6 & 5.94 \\
+CNN--Bi-Mamba & 10.80 & 3.71 & 131.6 & 1.12 & 43.6 & 4.05 \\
+ResNet-50 & 23.57 & 4.09 & 837.1 & 0.36 & 229.5 & 1.19 \\
+ConvNeXt-Tiny & 27.84 & 4.45 & 709.3 & 0.44 & 169.9 & 1.55 \\
+Swin-T & 27.54 & 4.49 & 503.0 & 0.57 & 153.0 & 1.69 \\
+\bottomrule
+\end{tabularx}
+\begin{tablenotes}[flushleft]
+\footnotesize
+\item Profiled on one NVIDIA Tesla T4 using FP16, batch size 32 for inference and 16 for training. The source report describes random initialization for this profile. Throughput is specific to the project implementation; the Mamba scan uses a pure-PyTorch path.
+\item[$^{*}$] Approximate GMAC count includes convolutions and matrix multiplications but undercounts or omits the sequential state-space scan.
+\end{tablenotes}
+\end{threeparttable}
+\end{table*}%
+}
+
+\newcommand{\ControlledTable}{%
+\begin{table*}[t]
+\caption{Selected Controlled Comparisons and Interpretation}
+\label{tab:controlled}
+\centering
+\footnotesize
+\begin{tabularx}{\textwidth}{@{}X l r X@{}}
+\toprule
+Comparison & Dataset & Difference (pp) & Interpretation \\
+\midrule
+Bi-Mamba, 50 to 150 epochs & PlantDoc & $+4.76$ & Longer scratch training improves the baseline; 50 epochs is not a sufficient convergence control. \\
+Scratch Bi-Mamba 150 ep. vs. SSL + fine-tune 150 ep. & PlantDoc & $-0.40$ & No measurable gain from the implemented self-supervised initialization at the matched fine-tuning budget. \\
+Hybrid basic vs. strong recipe & PlantDoc & $+5.65$ & The combined stronger recipe improves the reported hybrid mean; individual components are not isolated. \\
+ResNet-50 strong vs. hybrid strong & PlantDoc & $+3.17$ & Small three-run means favor the hybrid, but do not establish a reliable Mamba contribution. \\
+Hybrid basic (A) vs. scratch Bi-Mamba & Citrus & $+4.78$ & Pretrained CNN features coincide with a higher five-fold mean; not a same-architecture causal contrast. \\
+Hybrid basic (A) vs. hybrid strong & Citrus & $-0.16$ & The strong recipe does not provide a consistent additional improvement in this run set. \\
+ConvNeXt-Tiny 224 vs. 320, three-seed mean & Citrus & $-0.66$ & Higher resolution does not improve the three-seed average; the 96.21\% single-seed result is not representative. \\
+ConvNeXt-Tiny 320, flip TTA vs. no TTA & Citrus & $+0.11$ & Mean change across seed-level fold means is small and inconsistent by fold. \\
+\bottomrule
+\end{tabularx}
+\end{table*}%
+}
